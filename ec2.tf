@@ -47,5 +47,5 @@ data "template_cloudinit_config" "user-data" {
     content_type = "text/x-shellscript"
     content      = file("${path.module}/vscode-install.sh")
   }
-  
+
 }
