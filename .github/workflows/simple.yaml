@@ -1,5 +1,5 @@
 name: shell commands
-on: [push]
+on: [workflow_dispatch]
 
 jobs:
     run-shell-command:
